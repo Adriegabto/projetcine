@@ -1,4 +1,3 @@
 src/
-*.json
-node_modules/
-*.txtgit 
+*json
+node_modules
