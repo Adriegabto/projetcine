@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap');
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem "Roboto", sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    letter-spacing: .1rem;
+   /* color: #fff;
+   background-color: #222; */
+   display: grid;
+   grid-template-rows: auto 1fr auto;
+   height: 100vh;
+   width: 100vw;
+}
+h1,h2,h3,p,figure,ul,ol,figure{
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+
+a{
+    text-decoration: none;
+    color: #222;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+/* theme */
+header h1{
+    text-align: center;
+    background-color: #2B2A33;
+    color: azure;
+}
+
+
+main{
+    background-color: #2B2A33;
+    width : 100%;
+    line-height: normal;
+}
+
+.primary-collection{
+    max-width: 100rem;
+    margin: 5rem auto;
+}
+
+
+.primary-collection ul{ /*initialiser le parents */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 10%;
+    border-color: azure;
+}
+
+figcaption{
+    line-height: 1.6;
+}
+figure figcaption p:nth-child(2){
+    background-color: #ECF0F1;
+    text-align: center;
+}
+
+figure :nth-child(2){
+    text-align: center;
+    background-color: #BDC3C7;
+}
+
+
+a{
+    border-radius: 0rem;
+    background-color: black;
+    color: aliceblue;
+}
